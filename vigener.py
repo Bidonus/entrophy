@@ -33,5 +33,5 @@ with codecs.open(file_path, 'r', encoding='utf8') as file:
 
 
 if __name__ == '__main__':
-    key = input('Введи ключ:\t')
+    key = input('Enter key:\t')
     print(vigenere(data, key))
